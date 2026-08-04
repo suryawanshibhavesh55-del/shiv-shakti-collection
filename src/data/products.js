@@ -225,6 +225,10 @@ export const PRODUCTS = imageFiles.map((filename, idx) => {
   const nextImg1 = imageFiles[(idx + 1) % imageFiles.length];
   const nextImg2 = imageFiles[(idx + 2) % imageFiles.length];
 
+  const imgPath = `/assets/${encodeURIComponent(filename)}`;
+  const imgPath1 = `/assets/${encodeURIComponent(nextImg1)}`;
+  const imgPath2 = `/assets/${encodeURIComponent(nextImg2)}`;
+
   return {
     id: `shiv-shakti-lehenga-${idx + 1}`,
     name: titles[idx] || `Shiv Shakti Collection Lehenga Vol. ${idx + 1}`,
@@ -234,11 +238,11 @@ export const PRODUCTS = imageFiles.map((filename, idx) => {
     discountPercent: Math.round(((originalPrice - price) / originalPrice) * 100),
     rating: (4.8 + (idx % 2) * 0.1).toFixed(1),
     reviewsCount: 45 + (idx * 11) % 250,
-    image: `/assets/${filename}`,
+    image: imgPath,
     gallery: [
-      `/assets/${filename}`,
-      `/assets/${nextImg1}`,
-      `/assets/${nextImg2}`
+      imgPath,
+      imgPath1,
+      imgPath2
     ],
     isBestSeller: isBestSeller,
     isFeatured: isFeatured,
