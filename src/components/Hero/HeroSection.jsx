@@ -10,7 +10,7 @@ export const HeroSection = () => {
     }
   };
 
-  const whatsappUrl = "https://wa.me/918529593667?text=" + encodeURIComponent(
+  const whatsappUrl = "https://wa.me/919352697128?text=" + encodeURIComponent(
     "Hello SHIV SHAKTI COLLECTION, I want to order lehengas from your website."
   );
 

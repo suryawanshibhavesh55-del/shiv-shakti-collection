@@ -19,7 +19,7 @@ export const FAQSection = () => {
     },
     {
       q: "How can I order on this website?",
-      a: "1. Select your preferred lehengas and sizes.\n2. Add them to your Cart.\n3. Click Proceed to Checkout and fill your shipping details.\n4. Click 'Place Order via WhatsApp'.\n5. Our system automatically formats your full order and opens WhatsApp (8529593667) where our team will confirm your order!"
+      a: "1. Select your preferred lehengas and sizes.\n2. Add them to your Cart.\n3. Click Proceed to Checkout and fill your shipping details.\n4. Click 'Place Order via WhatsApp'.\n5. Our system automatically formats your full order and opens WhatsApp (9352697128) where our team will confirm your order!"
     },
     {
       q: "Can I exchange if there is a size issue?",

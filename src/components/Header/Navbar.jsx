@@ -37,7 +37,7 @@ export const Navbar = () => {
     }
   };
 
-  const whatsappUrl = "https://wa.me/918529593667?text=" + encodeURIComponent(
+  const whatsappUrl = "https://wa.me/919352697128?text=" + encodeURIComponent(
     "Hello SHIV SHAKTI COLLECTION, I want to inquire about your premium lehenga collection."
   );
 
@@ -230,7 +230,7 @@ export const Navbar = () => {
             }}
           >
             <MessageCircle size={16} />
-            <span>8529593667</span>
+            <span>9352697128</span>
           </a>
 
           {/* Search Trigger */}

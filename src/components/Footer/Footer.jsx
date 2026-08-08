@@ -9,7 +9,7 @@ export const Footer = () => {
     }
   };
 
-  const whatsappUrl = "https://wa.me/918529593667?text=" + encodeURIComponent(
+  const whatsappUrl = "https://wa.me/919352697128?text=" + encodeURIComponent(
     "Hello SHIV SHAKTI COLLECTION, I want to inquire about ordering lehengas."
   );
 
@@ -128,7 +128,7 @@ export const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               style={{ ...socialBtnStyle, color: '#25D366' }}
-              title="WhatsApp 8529593667"
+              title="WhatsApp 9352697128"
             >
               <Phone size={20} />
             </a>
@@ -172,7 +172,7 @@ export const Footer = () => {
               <div>
                 <strong style={{ color: '#FDFBF7' }}>Phone / WhatsApp: </strong>
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', fontWeight: 700, textDecoration: 'none' }}>
-                  8529593667
+                  9352697128
                 </a>
               </div>
             </div>

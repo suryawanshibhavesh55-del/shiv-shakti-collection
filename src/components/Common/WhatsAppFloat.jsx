@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const WhatsAppFloat = () => {
-  const whatsappUrl = "https://wa.me/918529593667?text=" + encodeURIComponent(
+  const whatsappUrl = "https://wa.me/919352697128?text=" + encodeURIComponent(
     "Hello SHIV SHAKTI COLLECTION,\nI would like to inquire about your premium lehenga collection and ongoing Buy Any 2 Dresses for ₹2000 offer!"
   );
 
@@ -11,7 +11,7 @@ export const WhatsAppFloat = () => {
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-float"
-      title="Order or Chat on WhatsApp (8529593667)"
+      title="Order or Chat on WhatsApp (9352697128)"
       aria-label="Contact SHIV SHAKTI COLLECTION on WhatsApp"
     >
       <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">

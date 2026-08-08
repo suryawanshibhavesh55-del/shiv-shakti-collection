@@ -46,7 +46,7 @@ export const QuickViewModal = () => {
 
   const handleWhatsAppOrder = () => {
     const message = `Hello SHIV SHAKTI COLLECTION,\nI would like to order:\n\n*Product:* ${quickViewProduct.name}\n*Size:* ${selectedSize}\n*Quantity:* ${quantity}\n*Price:* ₹${quickViewProduct.price * quantity}\n\nPlease share payment details and confirm my order!`;
-    const whatsappUrl = `https://wa.me/918529593667?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/919352697128?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -386,7 +386,7 @@ export const QuickViewModal = () => {
               }}
             >
               <MessageCircle size={18} />
-              <span>Instant Order via WhatsApp (8529593667)</span>
+              <span>Instant Order via WhatsApp (9352697128)</span>
             </button>
           </div>
         </div>

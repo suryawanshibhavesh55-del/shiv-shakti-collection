@@ -12,7 +12,7 @@ export const StickyMobileNav = () => {
     }
   };
 
-  const whatsappUrl = "https://wa.me/918529593667?text=" + encodeURIComponent(
+  const whatsappUrl = "https://wa.me/919352697128?text=" + encodeURIComponent(
     "Hello SHIV SHAKTI COLLECTION, I want to inquire about ordering lehengas."
   );
 

@@ -113,7 +113,7 @@ Total Amount: ₹${bundleInfo.totalPrice}
 ✨ Thank you for your order! ✨`;
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=918529593667&text=${encodedMessage}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=919352697128&text=${encodedMessage}`;
 
     showToast('Redirecting to WhatsApp...', 'success');
 
@@ -185,7 +185,7 @@ Total Amount: ₹${bundleInfo.totalPrice}
             Checkout & Order Details
           </h2>
           <p style={{ color: '#7A696E', fontSize: '0.88rem', marginTop: '4px' }}>
-            Fill details below to send order directly to WhatsApp (8529593667).
+            Fill details below to send order directly to WhatsApp (9352697128).
           </p>
         </div>
 
@@ -386,7 +386,7 @@ Total Amount: ₹${bundleInfo.totalPrice}
             }}
           >
             <MessageCircle size={22} />
-            <span>Place Order on WhatsApp (8529593667)</span>
+            <span>Place Order on WhatsApp (9352697128)</span>
           </button>
         </form>
       </div>
